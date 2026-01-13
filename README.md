@@ -1,28 +1,38 @@
-# Mike-Deneyap-Project
-**Deneyap Kart** tabanlı akıllı bir yardımcıdır. OpenAI servisleri aracılığıyla sesli komutları metne çevirir ve akıllı yanıtlar üretir.
+# 🤖 Proje MIKE: Yapay Zeka Destekli Fiziksel Asistan
 
-## ✨ Öne Çıkan Özellikler
-* [cite_start]**Akıllı Sohbet:** Whisper (STT) ve GPT-4o-mini (LLM) entegrasyonu[cite: 18, 19].
-* [cite_start]**Ortam Takibi:** SHT4x ve Basınç sensörü ile oda sıcaklığı, nem ve basınç ölçümü[cite: 22, 23].
-* [cite_start]**Bilgi Servisleri:** Open-Meteo API ile 5 günlük hava tahmini ve NTP üzerinden saat/takvim senkronizasyonu[cite: 27, 29].
-* [cite_start]**Verimlilik:** Ayarlanabilir Pomodoro Sayacı ve sesli alarmlar[cite: 30].
-* [cite_start]**Görsel Geri Bildirim:** OLED ekran üzerinde göz kırpma animasyonları ve RGB LED (NeoPixel) kontrolü[cite: 20, 33].
+Rabbit R1 projesinden ilham alınarak geliştirilen, **Deneyap Kart** tabanlı akıllı bir yardımcıdır. OpenAI (GPT-4o-mini & Whisper) servisleri ile sesli komutları metne çevirir, akıllı yanıtlar üretir ve daktilo efekti ile ekrana yansıtır.
+
+## 📺 Proje Tanıtım ve Demo Videosu
+Aşağıdaki görsele tıklayarak Mike'ın tüm özelliklerini, menü geçişlerini ve yapay zeka ile olan sohbetini izleyebilirsiniz:
+
+[![Proje MIKE Tanıtım Videosu](https://img.youtube.com/vi/7PUb-RcAiwI/0.jpg)](https://www.youtube.com/watch?v=7PUb-RcAiwI)
+
+---
+
+## ✨ Temel Özellikler
+* **Akıllı Sohbet:** Whisper (STT) ile ses kaydı ve GPT-4o-mini (LLM) ile hızlı, mantıklı yanıtlar.
+* **Ortam Takibi:** SHT4x ve Basınç sensörleri ile oda sıcaklığı, nem oranı ve hava basıncı (hPa) ölçümü.
+* **Bilgi Servisleri:** Open-Meteo API ile Bilecik lokasyonu için 5 günlük animasyonlu hava durumu tahmini.
+* **Zaman Yönetimi:** NTP üzerinden senkronize edilen modern dijital ve analog saat/takvim.
+* **Verimlilik Araçları:** Ayarlanabilir Pomodoro sayacı ve süre bittiğinde devreye giren sesli alarm sistemi.
+* **Donanım Kontrolü:** NeoPixel RGB LED üzerinden renk geçişleri ve özel "Disko Modu".
 
 ## 🛠 Donanım Bileşenleri
 | Malzeme | Görevi |
 | :--- | :--- |
-| **Deneyap Kart 1A v2** | [cite_start]Ana işlemci ve Wi-Fi kontrolcü [cite: 11] |
-| **INMP441 Mikrofon** | [cite_start]I2S tabanlı ses algılama [cite: 10] |
-| **Deneyap OLED Ekran** | [cite_start]Kullanıcı arayüzü ve animasyonlar [cite: 5] |
-| **Deneyap Hoparlör** | [cite_start]Sesli yanıtlar ve alarmlar [cite: 9] |
-| **Sensörler** | [cite_start]Sıcaklık, Nem ve Basınç ölçerler [cite: 6, 7] |
+| **Deneyap Kart 1A v2** | Projenin ana işlemcisi ve Wi-Fi kontrol ünitesi. |
+| **INMP441 Mikrofon** | I2S protokolü ile çalışan yüksek hassasiyetli mikrofon. |
+| **Deneyap OLED Ekran** | Kullanıcı arayüzü ve göz kırpma animasyonları. |
+| **Deneyap Hoparlör** | Sesli yanıtlar, daktilo efektleri ve alarm tonları. |
+| **Sensör Modülleri** | Sıcaklık, Nem ve Basınç ölçüm birimleri. |
+| **Güç Kaynağı** | 1800 mAh Li-Polymer Pil ile taşınabilir kullanım. |
 
-## 🕹 Kullanım ve Kontroller
-[cite_start]Cihazı yönetmek için iki ana donanım kullanılır[cite: 34]:
-* [cite_start]**Potansiyometre:** Menüler arası geçiş, metin kaydırma ve süre ayarı[cite: 35].
+## 🕹 Kullanıcı Etkileşimi
+Mike, sezgisel bir kontrol şemasına sahiptir:
+* **Potansiyometre:** Menüler arası geçiş, uzun metinleri kaydırma ve Pomodoro süresini ayarlama.
 * **Buton Fonksiyonları:**
-    * [cite_start]**Tek Tık:** Seçim yapar veya Mike'ı dinleme moduna sokar[cite: 36].
-    * [cite_start]**Çift Tık:** Geri döner veya uygulamadan çıkar[cite: 37].
-    * [cite_start]**Uzun Basış:** Pomodoro modunda ayarları kaydeder[cite: 38].
- 
-* http://www.youtube.com/watch?v=7PUb-RcAiwI 
+    * **Tek Tık:** Seçim yapar veya Mike'ı dinleme moduna sokar.
+    * **Çift Tık:** Mevcut uygulamadan çıkar veya ana menüye döner.
+    * **Uzun Basış (3 sn):** Pomodoro ayar moduna girer veya süreyi kaydeder.
+
+---
