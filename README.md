@@ -35,4 +35,12 @@ Mike, sezgisel bir kontrol şemasına sahiptir:
     * **Çift Tık:** Mevcut uygulamadan çıkar veya ana menüye döner.
     * **Uzun Basış (3 sn):** Pomodoro ayar moduna girer veya süreyi kaydeder.
 
+* **Adafruit_SSD1306 ve Adafruit_GFX
+
+* **ArduinoJson 
+
+* **Adafruit_SHT4x ve Deneyap_BasincOlcer
+
+* **Adafruit_NeoPixel 
+
 ---
